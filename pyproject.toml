@@ -1,0 +1,41 @@
+metadata-version = "2.3"
+homepage = "https://github.com/volfpeter/flask-session-decoder"
+author = "Peter Volf"
+author-email = "do.volfp@gmail.com"
+
+[tool.black]
+line-length = 118
+
+[tool.mypy]
+show_error_codes = true
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages]
+find = {}  # Scan the project directory with the default parameters
+
+[project]
+name = "flask-session-decoder"
+version = "0.1.0"
+description = "Zero-dependency Flask session decoder."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.8"
+dependencies = []
+classifiers = [
+    "Intended Audience :: Information Technology",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development",
+    "Typing :: Typed",
+    "Environment :: Web Environment",
+    "Framework :: Flask",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Internet :: WWW/HTTP",
+]
